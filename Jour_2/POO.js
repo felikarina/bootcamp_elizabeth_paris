@@ -92,6 +92,6 @@ dispatchCall()  // Devrait indiquer que tous les employés sont occupés
 console.log("\nFin d'un appel:")
 finishCall(respondent1)
 dispatchCall()        // Devrait attribuer l'appel à l'employé 1
-finishCall(director1) // Devrait attribuer l'appel au Directeur 1
-dispatchCall()
+finishCall(director1) 
+dispatchCall()        // Devrait attribuer l'appel au Directeur 1
 
