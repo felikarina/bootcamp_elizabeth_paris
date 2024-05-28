@@ -31,7 +31,7 @@ function finishCall(employee) {
 function addEmployee(employee) {
     if (employee.type === 'Respondent') {
         respondents.push(employee)
-        console.log(`Ajouté ${employee.name} comme Respondent`)
+        console.log(`Ajouté ${employee.name} comme Employé`)
     } else if (employee.type === 'Manager') {
         managers.push(employee)
         console.log(`Ajouté ${employee.name} comme Manager`)
@@ -69,8 +69,8 @@ function dispatchCall() {
 }
 
 // Création des employés
-let respondent1 = createEmployee("Répondant 1", "Respondent")
-let respondent2 = createEmployee("Répondant 2", "Respondent")
+let respondent1 = createEmployee("Employé 1", "Respondent")
+let respondent2 = createEmployee("Employé 2", "Respondent")
 let manager1 = createEmployee("Manager 1", "Manager")
 let director1 = createEmployee("Directeur 1", "Director")
 
