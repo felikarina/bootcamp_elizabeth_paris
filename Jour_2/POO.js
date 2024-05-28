@@ -37,7 +37,7 @@ function addEmployee(employee) {
         console.log(`Ajouté ${employee.name} comme Manager`)
     } else if (employee.type === 'Director') {
         directors.push(employee)
-        console.log(`Ajouté ${employee.name} comme Director`)
+        console.log(`Ajouté ${employee.name} comme Directeur`)
     }
 }
 
