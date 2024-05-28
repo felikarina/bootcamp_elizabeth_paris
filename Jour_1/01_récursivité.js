@@ -12,4 +12,4 @@ function count(number_step){
     }
 }
 
-console.log(count(4))
+console.log(count(5))
